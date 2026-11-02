@@ -1,0 +1,27 @@
+# ---- 编译产物 ----
+*.exe
+*.o
+*.obj
+*.out
+*.ilk
+*.pdb
+*.gch
+*.d
+output/
+build/
+bin/
+
+# ---- VS Code ----
+# 只留团队共享的配置，其余忽略
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/c_cpp_properties.json
+
+# ---- 系统/编辑器杂项 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+*~
+*.swp
